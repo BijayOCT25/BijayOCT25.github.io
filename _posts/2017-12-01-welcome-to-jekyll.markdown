@@ -1,25 +1,66 @@
----
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2017-12-01 08:17:00 +0000
-categories: jekyll update
----
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bijay Uprety - Personal Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+        h1, h2, h3 {
+            margin-top: 40px;
+        }
 
-Jekyll also offers powerful support for code snippets:
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+        a:hover {
+            text-decoration: underline;
+        }
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+        footer {
+            margin-top: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bijay Uprety</h1>
+        <p>Welcome to my personal blog!</p>
+    </header>
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+    <main>
+        <h2>About Me</h2>
+        <p>Hello, I'm Bijay Uprety. This is my personal blog where I share my thoughts, experiences, and insights about various topics that interest me.</p>
+
+        <h2>Latest Posts</h2>
+        <ul>
+            <li>
+                <a href="#">Post Title 1</a> - Published on August 4, 2023
+            </li>
+            <li>
+                <a href="#">Post Title 2</a> - Published on August 2, 2023
+            </li>
+            <li>
+                <a href="#">Post Title 3</a> - Published on July 28, 2023
+            </li>
+        </ul>
+
+        <h2>Contact Me</h2>
+        <p>If you have any questions, suggestions, or just want to say hi, feel free to <a href="mailto:your-email@example.com">contact me</a>.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Bijay Uprety. All rights reserved.</p>
+    </footer>
+</body>
+</html>
